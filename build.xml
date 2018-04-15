@@ -7,7 +7,7 @@
     <property environment="env"/>
     <property name="ReportName" value="TestReport" />
     <!-- 需要改成自己本地的 Jmeter 目录--> 
-    <property name="jmeter.home" value="C:\apache-jmeter-4.0" />
+    <property name="jmeter.home" value="E:\apache-jmeter-3.1" />
     <!-- jmeter生成jtl、html格式的结果报告的路径--> 
     <!-- <property name="jmeter.result.dir" value="${env.WORKSPACE}/results/${env.BUILD_ID}" /> -->
 	<property name="jmeter.jtl.dir" value="./results/jtl" />
