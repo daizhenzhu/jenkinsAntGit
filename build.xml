@@ -7,7 +7,7 @@
     <property environment="env"/>
     <property name="ReportName" value="TestReport" />
     <!-- 需要改成自己本地的 Jmeter 目录--> 
-    <property name="jmeter.home" value="E:\apache-jmeter-3.1" />
+    <property name="jmeter.home" value="E:\apache-jmeter-3.1"/>
     <!-- jmeter生成jtl、html格式的结果报告的路径--> 
     <!-- <property name="jmeter.result.dir" value="${env.WORKSPACE}/results/${env.BUILD_ID}" /> -->
 	<property name="jmeter.jtl.dir" value="./results/jtl" />
@@ -29,7 +29,7 @@
         <taskdef name="jmeter" classname="org.programmerplanet.ant.taskdefs.jmeter.JMeterTask" />
         <jmeter jmeterhome="${jmeter.home}" resultlog="${jmeter.result.jtlName}">
             <!-- 声明要运行的脚本"*.jmx"指包含此目录下的所有jmeter脚本-->
-            <testplans dir="C:\apache-jmeter-4.0\workspace\jmx" includes="*.jmx" />
+            <testplans dir="C:\Users\171212\Desktop\myreport\jmx" includes="*.jmx" />
             <property name="jmeter.save.saveservice.output_format" value="xml"/>
         </jmeter>
     </target>
